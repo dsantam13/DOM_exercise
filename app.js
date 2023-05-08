@@ -1,3 +1,4 @@
+/*
 console.log(document);
 document.querySelector('h1').textContent = 'Hablemos de JavaScript';
 const title = document.querySelector('h1');
@@ -14,3 +15,12 @@ console.log(markup);
 
 // Adding all the markup in one operation
 list.innerHTML = markup;
+*/
+
+let padre = document.getElementById('padre');
+let resultado = document.getElementById('resultado');
+
+//resultado.innerText = padre.nodeName;
+
+let hijos = padre.children;
+resultado.innerText = hijos.length
